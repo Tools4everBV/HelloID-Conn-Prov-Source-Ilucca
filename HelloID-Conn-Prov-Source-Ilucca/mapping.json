@@ -1,93 +1,153 @@
 {
-    "personMappings": [
+    "personMappings":[
         {
-            "name": "ExternalId",
-            "mode": "field",
-            "value": "ExternalId",
+            "name":"Contact.Business.Email",
+            "mode":"field",
+            "value":"mail",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "Name.Convention",
-            "mode": "field",
-            "value": "Convention",
+            "name":"Custom.IluccaID",
+            "mode":"field",
+            "value":"id",
             "validation": {
-                "required": false
+                "required":false
+            },
+            "convertToString":false
+        },
+        {
+            "name":"Excluded",
+            "mode":"fixed",
+            "value":false,
+            "validation": {
+                "required":false
             }
         },
         {
-            "name": "Name.FamilyName",
-            "mode": "field",
-            "value": "LastName",
+            "name":"ExternalId",
+            "mode":"field",
+            "value":"ExternalId",
             "validation": {
-                "required": true
+                "required":false
             }
         },
         {
-            "name": "Name.NickName",
-            "mode": "field",
-            "value": "FirstName",
+            "name":"Name.Convention",
+            "mode":"fixed",
+            "value":"B",
+            "validation": { 
+                "required":false
+            }
+        },
+        {
+            "name":"Name.FamilyName",
+            "mode":"field",
+            "value":"lastName",
             "validation": {
-                "required": true
+                "required":true
+            }
+        },
+        {
+            "name":"Name.GivenName",
+            "mode":"field",
+            "value":"firstName",
+            "validation": {
+                "required":false
+            }
+        },
+        {
+            "name":"Name.NickName",
+            "mode":"field",
+            "value":"firstName",
+            "validation": {
+                "required":true
             }
         }
     ],
     "contractMappings": [
         {
-            "name": "Department.DisplayName",
-            "mode": "field",
-            "value": "DepartmentName",
+            "name":"Custom.ProfileCleemy7",
+            "mode":"field",
+            "value":"ProfileClemmy7",
             "validation": {
-                "required": false
+                "required":false
+            },
+            "convertToString":false
+        },
+        {
+            "name":"Custom.ProfileFiggo",
+            "mode":"field",
+            "value":"ProfileFigo",
+            "validation": {
+                "required":false
+            },
+            "convertToString":false
+        },
+        {
+            "name":"Custom.ProfileUltime",
+            "mode":"field",
+            "value":"ProfileUtime",
+            "validation": {
+                "required":false
+            },
+            "convertToString":false
+        },
+        {
+            "name":"Department.DisplayName",
+            "mode":"field",
+            "value":"ServiceName",
+            "validation": {
+                "required":false
             }
         },
         {
-            "name": "Department.ExternalId",
-            "mode": "field",
-            "value": "DepartmentCode",
+            "name":"Department.ExternalId",
+            "mode":"field",
+            "value":"ServiceId",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "EndDate",
-            "mode": "field",
-            "value": "EndDate",
+            "name":"EndDate",
+            "mode":"field",
+            "value":"DateFinContrat",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "ExternalId",
-            "mode": "field",
-            "value": "SequenceNumber",
+            "name":"ExternalId",
+            "mode":"field",
+            "value":"ExternalId",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "StartDate",
-            "mode": "field",
-            "value": "StartDate",
+            "name":"Manager.ExternalId",
+            "mode":"field",
+            "value":"ManagerEmployeeNumber",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "Title.ExternalId",
-            "mode": "field",
-            "value": "TitleCode",
+            "name":"StartDate",
+            "mode":"field",
+            "value":"DateDebutContrat",
             "validation": {
-                "required": false
+                "required":false
             }
         },
         {
-            "name": "Title.Name",
-            "mode": "field",
-            "value": "TitleName",
+            "name":"Title.Name",
+            "mode":"field",
+            "value":"Fonction",
             "validation": {
-                "required": false
+                "required":false
             }
         }
     ]
