@@ -40,6 +40,11 @@ The following settings are required to connect to the API.
 | CustomerUrl	| The Url to connect to the API 	| Yes         |
 | Secret  		| The Secret to connect to the API 	| Yes         |
 
+Fill in the required fields on the 'Configuration' tab.
+<p align="left">
+  <img src="https://github.com/Tools4everBV/HelloID-Conn-Prov-Source-Ilucca/raw/main/assets/Config.png" width="800">
+</p>
+
 
 ### Prerequisites
 
