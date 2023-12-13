@@ -4,7 +4,7 @@
     "type": "input",
     "defaultValue": "",
     "templateOptions": {
-      "label": "The iluca secret",
+      "label": "The Ilucca secret",
       "type": "password",
       "placeholder": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
       "required": false
@@ -15,7 +15,7 @@
     "type": "input",
     "defaultValue": "",
     "templateOptions": {
-      "label": "The iluca Customer Url",
+      "label": "The Ilucca Customer Url",
       "placeholder": "https://my-company.ilucca.net",
       "required": false
     }
