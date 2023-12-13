@@ -113,7 +113,7 @@
         {
             "name":"EndDate",
             "mode":"field",
-            "value":"DateFinContrat",
+            "value":"ContractEnd",
             "validation": {
                 "required":false
             }
@@ -137,7 +137,7 @@
         {
             "name":"StartDate",
             "mode":"field",
-            "value":"DateDebutContrat",
+            "value":"ContractStart",
             "validation": {
                 "required":false
             }
@@ -145,7 +145,7 @@
         {
             "name":"Title.Name",
             "mode":"field",
-            "value":"Fonction",
+            "value":"jobTitle",
             "validation": {
                 "required":false
             }
