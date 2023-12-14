@@ -6,7 +6,7 @@
 # Initialize default value's
 $config = $Configuration | ConvertFrom-Json
 $secret = $config.secret
-$customerUrl = $config.customerUrl 
+$customerUrl = $config.customerUrl
 
 # Set debug logging
 
@@ -19,20 +19,18 @@ try{
     $DepartmentsUri =  "$customerUrl/api/v3/departments"
     $headers = @{
             'Authorization' = "Lucca application=$secret"
-    } 
-    $result = Invoke-RestMethod -Uri $DepartmentsUri -Method GET -Headers $headers 
-    $departments = $result.data.items 
+    }
+    $result = Invoke-RestMethod -Uri $DepartmentsUri -Method GET -Headers $headers
+    $departments = $result.data.items
 }catch{
-    Write-Error "Error getting Ilucca departments";
-    Write-Error $_.Exception.Message;
-    Exit;
+    throw "Error getting Ilucca departments $($_.Exception.Message)"
 }
 
 foreach ($d in $departments){
     $department = [PSCustomObject]@{
         ExternalId  = $d.id
         DisplayName = $d.name
-        Name        = $d.name 
+        Name        = $d.name
     }
     Write-Output $department | ConvertTo-Json
 }
