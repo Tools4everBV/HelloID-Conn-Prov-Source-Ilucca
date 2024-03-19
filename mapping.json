@@ -59,33 +59,6 @@
     ],
     "contractMappings": [
         {
-            "name":"Custom.ProfileCleemy7",
-            "mode":"field",
-            "value":"ProfileClemmy7",
-            "validation": {
-                "required":false
-            },
-            "convertToString":false
-        },
-        {
-            "name":"Custom.ProfileFiggo",
-            "mode":"field",
-            "value":"ProfileFigo",
-            "validation": {
-                "required":false
-            },
-            "convertToString":false
-        },
-        {
-            "name":"Custom.ProfileUltime",
-            "mode":"field",
-            "value":"ProfileUtime",
-            "validation": {
-                "required":false
-            },
-            "convertToString":false
-        },
-        {
             "name":"Department.DisplayName",
             "mode":"field",
             "value":"ServiceName",
