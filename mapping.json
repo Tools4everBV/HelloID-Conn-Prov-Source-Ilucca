@@ -9,15 +9,6 @@
             }
         },
         {
-            "name":"Custom.IluccaID",
-            "mode":"field",
-            "value":"id",
-            "validation": {
-                "required":false
-            },
-            "convertToString":false
-        },
-        {
             "name":"Excluded",
             "mode":"fixed",
             "value":false,
